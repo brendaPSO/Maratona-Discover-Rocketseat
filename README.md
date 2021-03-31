@@ -1,4 +1,4 @@
-<h1 align="center">Em Andamento ...</h1>
+<h1 align="center">Curso em Andamento ...</h1>
 <h1 align="center">
   <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
 </h1>
@@ -48,4 +48,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito por Brenda Orlandi, ensinado pela Rocketseat - Maratona Discover.
