@@ -33,13 +33,13 @@
         <h2><%= profile.name %> </h2>
         <p>
           O valor da sua hora é <br/>
-          <strong>R$ 75,00</strong>
+          <strong>R$ <%= profile["value-hour"].toFixed(2).replace('.', ',') %> </strong>
         </p>
         <button class="button green" form="form-profile" type="submit">Salvar dados</button>
       </aside>
       <main>
 
-        <form id="form-profile">
+        <form id="form-profile" action="/profile" method="post">
           <fieldset>
             <legend>Dados do perfil</legend>
             <div class="separator light"></div>
@@ -108,7 +108,7 @@
                   type="amount" 
                   id="vacation-per-year" 
                   name="vacation-per-year" 
-                  value="<%=profile["vocation-per-year"]%>"/>
+                  value="<%=profile["vacation-per-year"]%>"/>
               </div>
             </div>
           </fieldset>

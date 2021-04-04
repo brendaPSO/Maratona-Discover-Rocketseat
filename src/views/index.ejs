@@ -32,13 +32,17 @@
           <img id="logo" src="/images/logo.svg" alt="Logo" />
           <span id="notification">
             <img src="/images/alert-octagon.svg" alt="Alerta" />
-            Você tem 2 horas livres no seu dia
+            
+            <% if(freeHours <= 0) { %>
+              Você não tem horas livres no seu dia
+            <% } else { %>
+              Você tem <%= freeHours %>  horas livres no seu dia
+            <% } %>
+
           </span>
           <a href="/profile" id="avatar-profile">
-            <p>Jakeliny <span>Ver perfil</span></p>
-            <img
-              src="<%= profile.avatar %> "
-            />
+            <p> <%= profile.name %>  <span>Ver perfil</span></p>
+            <img src="<%= profile.avatar %> "/>
           </a>
         </section>
 
@@ -49,15 +53,15 @@
 
           <div class="info">
             <div class="total">
-              <strong>12</strong>
+              <strong><%= statusCount.total %> </strong>
               Projetos ao total
             </div>
             <div class="in-progress">
-              <strong>7</strong>
+              <strong> <%= statusCount.progress %> </strong>
               Em andamento
             </div>
             <div class="finished">
-              <strong>4</strong>
+              <strong> <%= statusCount.done %> </strong>
               Encerrados
             </div>
           </div>
@@ -104,7 +108,7 @@
             <div class="actions column flex">
               <p class="sr-only">Ações</p>
               <a 
-                href="/job/edit/<%= job.id %> " 
+                href="/job/<%= job.id %> " 
                 class="button white edit" 
                 title="Editar Job">
                 <img src="/images/edit-24.svg" alt="Editar Job" />
@@ -129,12 +133,12 @@
         <img src="/images/trash-48.svg" alt="Excluir Job" title="Excluir Job" />
         <h3>Excluir Job</h3>
         <p>Quer mesmo excluir esse job? <br/>
-        Ele será apagado para sempre.  
-        <p>
+          Ele será apagado para sempre.  
+        </p>
         <footer>
           <a 
             class="button gray" 
-            href="#">Cancelar</a>
+            href="/">Cancelar</a>
           <button
             class="button red"
             type="submit"
@@ -144,7 +148,8 @@
       <form 
         method="post" 
         action="/job/delete" 
-        id="delete-job"></form>
+        id="delete-job">
+      </form>
     </div>
     <!-- end modal-wrapper -->
   </body>
