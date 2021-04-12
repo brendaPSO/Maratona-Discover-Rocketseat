@@ -38,19 +38,19 @@ O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer
 <br/>
 
 <p align="center">
-  <img alt="dev.finances" src=".github/github1.JPG" width="100%">
+  <img alt="dev.finances" src=".github/github1.png" width="100%">
 </p>
 <p align="center">
-  <img alt="dev.finances" src=".github/github2.JPG" width="100%">
+  <img alt="dev.finances" src=".github/github2.png" width="100%">
 </p>
 <p align="center">
-  <img alt="dev.finances" src=".github/github3.JPG" width="100%">
+  <img alt="dev.finances" src=".github/github3.png" width="100%">
 </p>
 <p align="center">
-  <img alt="dev.finances" src=".github/github4.JPG" width="100%">
+  <img alt="dev.finances" src=".github/github4.png" width="100%">
 </p>
 <p align="center">
-  <img alt="dev.finances" src=".github/github5.JPG" width="100%">
+  <img alt="dev.finances" src=".github/github5.png" width="100%">
 </p>
 
 ## :memo: Licença
