@@ -1,4 +1,3 @@
-<h1 align="center">Curso em Andamento ...</h1>
 <h1 align="center">
   <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
 </h1>
@@ -18,10 +17,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -36,11 +31,27 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema 💰
+O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer. É possível calcular o valor da hora de trabalho do Freelancer, de acordo com as informações preenchidas, dessa forma, ao cadastrar um projeto, o sistema estipula o custo do job em horas trabalhadas. Além de criar, você consegue editar e excluir os projetos.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+<br/>
+
+<p align="center">
+  <img alt="dev.finances" src="img1.JPG" width="100%">
+</p>
+<p align="center">
+  <img alt="dev.finances" src="img2.JPG" width="100%">
+</p>
+<p align="center">
+  <img alt="dev.finances" src="img3.JPG" width="100%">
+</p>
+<p align="center">
+  <img alt="dev.finances" src="img4.JPG" width="100%">
+</p>
+<p align="center">
+  <img alt="dev.finances" src="img5.JPG" width="100%">
+</p>
 
 ## :memo: Licença
 
